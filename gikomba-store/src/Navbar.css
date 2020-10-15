@@ -22,6 +22,8 @@
   .navbar .navigation button{
       border:none;
       margin-left: 20px;
+      font-weight: bold;
+      cursor: pointer;
       width: 100px;
       height:50px;
       background-color:transparent;
