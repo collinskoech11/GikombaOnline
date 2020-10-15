@@ -13,6 +13,9 @@ export default function Navbar() {
                 <button>About Us</button>
                 <button>Contact us</button>
             </div>
+            <div className="search">
+                <input type="text" value="" placeholder="Search"/>
+            </div>
         </div>
     )
 }
