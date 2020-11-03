@@ -1,15 +1,13 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Hero from '../Hero'
-import Footer from '../Footer'
+import WomensWear from './productsPage/WomensWear'
+import MensWear from './productsPage/MensWear'
 
 
 export default function Home() {
     return (
-        <>
-        <Navbar/>
-        <Hero/>
-        <Footer/>
-       </> 
+        <div>
+        <WomensWear/>
+        <MensWear/>
+        </div>
     )
 }
